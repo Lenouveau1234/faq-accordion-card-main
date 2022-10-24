@@ -1,0 +1,274 @@
+
+*{
+    box-sizing: content-box;
+}
+body{
+    background-image: linear-gradient(to right ,hsl(240, 73%, 65%),hsl(273, 75%, 66%));
+}
+
+/* style of the FAQ */
+.faq{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* style of the text */
+.text{
+    font-size: 12px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    justify-content: flex-start;
+}
+
+/* styling the container  */
+.container::before {
+    content: "";
+    background: url(images/illustration-box-desktop.svg) no-repeat;
+    background-size: 150px;
+    width: 140px;
+    height: 190px;
+    position: absolute;
+    top: 67%;
+    left: 1%;
+    transform: translate(-55%, -55%);
+    animation: boxHop 2s ease-in-out;
+    animation-iteration-count: infinite;
+}
+.container {
+    transform: translate(35%, 25%);
+    height: 410px;
+    width: 825px;
+    display: flex;
+    justify-content: flex-end;
+    background:
+    url(images/illustration-woman-online-desktop.svg) bottom 3.1rem left -3.5rem no-repeat ,
+    url(images/bg-pattern-desktop.svg) bottom -7rem left -23rem no-repeat;
+    background-color: white; 
+    background-size: 400px, 700px;
+    border-radius: 20px;
+}
+
+/* margin between questions */
+.quetion-margin{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* font weight of questions */
+.text-bold{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* color of answers text */
+.ans-color{
+    color: hsl(228, 45%, 44%);
+}
+
+/* hide the content */
+.hide{
+    display: none;
+}
+
+/* styling the icons  */
+.icon1{
+    position: absolute;
+    right: -5%;
+    top: 5px;
+    cursor: pointer;
+}
+.icon2{
+    position: absolute;
+    right: -5%;
+    top: 25%;
+    cursor: pointer;
+}
+.icon3{
+    position: absolute;
+    right: -5%;
+    top: 47%;
+    cursor: pointer;
+}
+.icon4{
+    position: absolute;
+    right: -5%;
+    top: 66%;
+    cursor: pointer;
+}
+.icon5{
+    position: absolute;
+    right: -5%;
+    top: 86%;
+    cursor: pointer;
+}
+
+/* after clicking on icon number one */
+.icon1-after-clicking-on-image-one{
+    position: absolute;
+    right: -5%;
+    top: 5px;
+    cursor: pointer;
+    transform: rotateZ(180deg);
+}
+.icon2-after-clicking-on-image-one{
+    position: absolute;
+    right: -5%;
+    top: 44%;
+    cursor: text;
+}
+.icon3-after-clicking-on-image-one{
+    position: absolute;
+    right: -5%;
+    top: 60%;
+    cursor: text;
+}
+.icon4-after-clicking-on-image-one{
+    position: absolute;
+    right: -5%;
+    top: 75%;
+    cursor: text;
+}
+.icon5-after-clicking-on-image-one{
+    position: absolute;
+    right: -5%;
+    top: 91%;
+    cursor: text;
+}
+
+/* after clicking on icon number two */
+.icon1-after-clicking-on-image-two{
+    position: absolute;
+    right: -5%;
+    top: 5px;
+    cursor: text;
+}
+.icon2-after-clicking-on-image-two{
+    position: absolute;
+    right: -5%;
+    top: 21%;
+    cursor: pointer;
+    transform: rotateZ(180deg);
+}
+.icon3-after-clicking-on-image-two{
+    position: absolute;
+    right: -5%;
+    top: 56%;
+    cursor: text;
+}
+.icon4-after-clicking-on-image-two{
+    position: absolute;
+    right: -5%;
+    top: 73%;
+    cursor: text;
+}
+.icon5-after-clicking-on-image-two{
+    position: absolute;
+    right: -5%;
+    top: 91%;
+    cursor: text;
+}
+
+/* after clicking on icone number three */
+.icon2-after-clicking-on-image-three{
+    position: absolute;
+    right: -5%;
+    top: 18%;
+    cursor: text;
+}
+.icon3-after-clicking-on-image-three{
+    position: absolute;
+    right: -5%;
+    top: 36%;
+    cursor: pointer;
+    transform: rotateZ(180deg);
+}
+.icon4-after-clicking-on-image-three{
+    position: absolute;
+    right: -5%;
+    top: 75%;
+    cursor: text;
+}
+.icon5-after-clicking-on-image-three{
+    position: absolute;
+    right: -5%;
+    top: 91%;
+    cursor: text;
+}
+
+/* after clicking on icone number four */
+.icon1-after-clicking-on-image-four{
+    position: absolute;
+    right: -5%;
+    top: 5px;
+    cursor: text;
+}
+.icon2-after-clicking-on-image-four{
+    position: absolute;
+    right: -5%;
+    top: 20%;
+    cursor: text;
+}
+.icon3-after-clicking-on-image-four{
+    position: absolute;
+    right: -5%;
+    top: 36%;
+    cursor: text;
+}
+.icon4-after-clicking-on-image-four{
+    position: absolute;
+    right: -5%;
+    top: 55%;
+    cursor: pointer;
+    transform: rotateZ(180deg);
+}
+.icon5-after-clicking-on-image-four{
+    position: absolute;
+    right: -5%;
+    top: 91%;
+    cursor: text;
+}
+
+/* after clicking on icone number five */
+.icon1-after-clicking-on-image-five{
+    position: absolute;
+    right: -5%;
+    top: 5px;
+    cursor: text;
+}
+.icon2-after-clicking-on-image-five{
+    position: absolute;
+    right: -5%;
+    top: 20%;
+    cursor: text;
+}
+.icon3-after-clicking-on-image-five{
+    position: absolute;
+    right: -5%;
+    top: 37%;
+    cursor: text;
+}
+.icon4-after-clicking-on-image-five{
+    position: absolute;
+    right: -5%;
+    top: 54%;
+    cursor: text;
+}
+.icon5-after-clicking-on-image-five{
+    position: absolute;
+    right: -5%;
+    top: 71%;
+    cursor: pointer;
+    transform: rotateZ(180deg);
+}
+
+.attribution{
+    position: absolute;
+    left: 37%;
+    bottom: 5%;
+}

@@ -323,6 +323,9 @@ hr{
     }
 
     /* after clicking on icon number one */
+    .icon3-after-clicking-on-image-one{
+        top: 59%;
+    }
     .icon4-after-clicking-on-image-one{
         top: 74%;
     }
